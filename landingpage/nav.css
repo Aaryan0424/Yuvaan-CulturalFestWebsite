@@ -15,7 +15,7 @@ body {
 }
 
 .navigation {
-    margin-top: 10rem;
+    margin-top: 4rem;
     position: fixed;
     width: 5rem;
     background: #fff;
@@ -164,6 +164,7 @@ body {
     .navigation{
         transform:  scaleY(0.7);
         width: 4rem;
+        margin-top: 0rem;
     }
     #temp{
         padding-left: 0;
