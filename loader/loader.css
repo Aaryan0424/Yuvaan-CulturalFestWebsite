@@ -1,0 +1,133 @@
+.wrapper {
+    background-image: url('./1Z_2103.w026.n002.271B.p1.271.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+
+
+.loader-ellips {
+animation: hideAnimation 0s ease-in 3s;
+animation-fill-mode: forwards;
+font-size: 20px; /* change size here */
+position: relative;
+width: 4em;
+height: 1em;
+margin: 0 auto;
+justify-content: center;
+margin-top: 22.5%;
+zoom: 1.5;
+}
+
+@keyframes hideAnimation {
+    to {
+      visibility: hidden;
+    }
+}
+
+.loader-ellips__dot {
+/* zoom: 1.5; */
+display: block;
+width: 1em;
+height: 1em;
+border-radius: 0.5em;
+background: #555; /* change color here */
+position: absolute;
+animation-duration: 0.5s;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+}
+
+.loader-ellips__dot:nth-child(1),
+.loader-ellips__dot:nth-child(2) {
+left: 0;
+}
+.loader-ellips__dot:nth-child(3) { left: 1.5em; }
+.loader-ellips__dot:nth-child(4) { left: 3em; }
+
+@keyframes reveal {
+from { transform: scale(0.001); }
+to { transform: scale(1); }
+}
+
+@keyframes slide {
+to { transform: translateX(1.5em) }
+}
+
+.loader-ellips__dot:nth-child(1) {
+animation-name: reveal;
+}
+
+.loader-ellips__dot:nth-child(2),
+.loader-ellips__dot:nth-child(3) {
+animation-name: slide;
+}
+
+.loader-ellips__dot:nth-child(4) {
+animation-name: reveal;
+animation-direction: reverse;
+}
+
+/*animation button*/
+.enter{
+    visibility: hidden;
+    animation: makevisible 0s ease-in 4s;
+    animation-fill-mode: forwards;
+    justify-content: center;
+    position: relative;
+    display: inline-flex;
+    top: -8%;
+    width: 88%;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+  .enter a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .enter a:before,
+  .enter a:after{
+    position: absolute;
+    content: "BUTTON";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .enter a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .enter a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .enter a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+
+  @keyframes makevisible {
+    to {
+        visibility: visible;
+    }
+}
+/*Bitton CSS End*/
+

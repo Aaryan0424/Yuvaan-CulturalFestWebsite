@@ -1,0 +1,53 @@
+/* 
+#main{
+  position:absolute;
+  top:50%;
+  left:30%;
+}
+.box{
+  width:50%;
+  height: auto;
+  display:inline-block;
+  overflow:hidden;
+}
+.letter{
+  font-family: fantasy;
+  font-size: 1.25rem;
+  line-height: 1rem;
+  position:relative;
+  left:-160px;
+  transition: all .25s linear;
+  transform: translate(-10px, 10px);
+} */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+.textsection {
+  position: relative;
+  background: transparent;
+}
+
+.sticky-statement {
+  min-height: 150vh;
+
+}
+
+.textH1 {
+  position: sticky;
+  top: 47.5vh;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 28px;
+  transform: translate(90%, 100rem);
+}
+
+
+@media screen and (max-width: 500px ){
+  .textH1 {
+    font-size: 20px;
+    transform: translate(0%, 100rem);
+  }
+}
+  
