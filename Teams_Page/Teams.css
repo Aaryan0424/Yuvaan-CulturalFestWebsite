@@ -27,6 +27,7 @@ nav {
 }
 
 .navigation {
+    margin-top: 7rem;
     width: 5rem;
     background: #fff;
     display: flex;
@@ -40,7 +41,8 @@ nav {
 }
 
 .navigation.active {
-    width: 32rem;
+    width: 20rem;
+    margin-left: 8px;
 }
 
 .navigation .menu_toggle {
@@ -167,7 +169,29 @@ nav {
     align-items: center;
     font-size: 1.25rem;
 }
-
+@media screen and  (max-width: 500px) {
+    .navigation{
+        transform:  scaleY(0.7);
+        width: 4rem;
+        margin-top: 0rem;
+    }
+    #temp{
+        padding-left: 0;
+    }
+    ion-icon , .imgBx{
+        transform: scaleX(0.7);
+    }
+    .navigation.active{
+        width: 60vw;
+    }
+    .menu .text{
+        transform: scaleX(0.7);
+    }
+    #threelines{
+        transform: scaleX(0.7);
+        padding: 0 15px;
+    }
+}
 /* nav bar style ends */
 
 /* container for details */
