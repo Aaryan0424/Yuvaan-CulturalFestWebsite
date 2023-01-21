@@ -176,7 +176,7 @@ button:focus {
 .navigation {
 	margin-top: 8rem;
 	position: fixed;
-	width: 6rem;
+	width: 6.5rem;
 	background: #fff;
 	display: flex;
 	align-items: flex-end;
@@ -305,7 +305,7 @@ button:focus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 1.5rem;
+	font-size: 2rem;
   }
   
   .navigation .menu li a .text {
@@ -315,7 +315,7 @@ button:focus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
   }
   /* navigation bar end */
 
