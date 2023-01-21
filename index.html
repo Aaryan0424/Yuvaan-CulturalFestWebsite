@@ -14,7 +14,7 @@
 
 <body>
 <!-- Navbar Start-->
-    <div class="navigation" style="z-index: 11;">
+    <header class="navigation" style="z-index: 11;">
         <div class="menu_toggle" id = "threelines"></div>
         <div class="profile">
             <div class="imgBx">
@@ -53,12 +53,12 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </header>
 <!-- Navbar End-->
 
 <!-- Testing Area -->
 <div id="main" style="z-index: 5;">
-  <section>
+
     <div class="sticky-statement" >
       <p class="textH1" style=" display: block; margin-top: 10rem;background-color: #33335c; padding: 3rem; border-radius: 10px; "> ONE Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et placeat at, beatae labore non exercitationem pariatur voluptas ex esse, unde corrupti odio officiis quas amet aliquid illo illum. Accusantium, ducimus.
       </p>
@@ -72,23 +72,22 @@
         <p class="textH1" style=" display: block; margin-top: 10rem;background-color: #33335c; padding: 3rem; border-radius: 10px;"> THREE Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et placeat at, beatae labore non exercitationem pariatur voluptas ex esse, unde corrupti odio officiis quas amet aliquid illo illum. Accusantium, ducimus.
         </p>
     </div>
-  </section>
+
 </div>
 <script>
     const stickyEls = document.querySelectorAll('.sticky-statement');
-
     stickyEls.forEach(el => {
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: el,
-          start: 'bottom 70%',
-          end: 'bottom center',
+          start: 'top 70%',
+        //   end: 'bottom center',
           markers: true,
           toggleActions: 'play none reverse none',
           scrub: 1
         }
       });
-      tl.to(el, {opacity: 0, yPercent: -30})
+      tl.to(el, {opacity: 0,duration: 1, delay: 2})
     })
 </script>
 
@@ -423,8 +422,11 @@
 
 <div class="scrollElement">
 </div>
-  
+</body>
 <!-- partial -->
+
+
+
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js'></script><script  src="./landingpage/script.js"></script>
 <script>
@@ -442,5 +444,5 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.1/plugins/animation.gsap.js'></script>
 
 
-</body>
+
 </html>

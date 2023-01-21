@@ -67,12 +67,25 @@ svg {
 
    transform:translate(10rem,15rem) ;
  }
-  
+
+ #main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .sticky-statement {
+  width: 100%;
+ }
 
  .sticky-statement .textH1 {
    font-family: 'Montserrat', sans-serif;
    font-size: 1.4rem;
    color: #fff;
+   justify-content: center;
+   align-self: center;
  
  }
 @media (max-width: 600px) {
