@@ -24,38 +24,56 @@
                     <img src="Yuvaan_Logo.png" alt="" />
                 </div>
             </div>
-            <ul class="menu">
-                <li>
-                    <a href="../index.html">
-                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
-                        <span class="text">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="../events-page/index.html">
-                        <span class="icon"><ion-icon name="game-controller-outline"></ion-icon></span>
-                        <span class="text">Events</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="../gallery-page/index.html">
-                        <span class="icon"><ion-icon name="images-outline"></ion-icon></span>
-                        <span class="text">Gallary</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="../Sponsors-page/index.html">
-                        <span class="icon"><ion-icon name="wallet-outline"></ion-icon></span>
-                        <span class="text">Sponsors</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="../Teams_Page/Teams.html">
-                        <span class="icon"><ion-icon name="bug-outline"></ion-icon></span>
-                        <span class="text">Teams</span>
-                    </a>
-                </li>
-            </ul>
+            <ul class="menu" id="temp">
+              <li>
+                  <a href="../index.html">
+                      <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                      <span class="text">Home</span>
+                  </a>
+              </li>
+              <li>
+                  <a href = "../events-page/index.html">
+                      <span class="icon">
+                          <ion-icon name="calendar-outline"></ion-icon>
+                      </span>
+                      <span class="text">Events</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="../gallery-page/index.html">
+                      <span class="icon">
+                          <ion-icon name="images-outline"></ion-icon>
+                      </span>
+                      <span class="text">Gallary</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="../Sponsors-page/index.html">
+                      <span class="icon">
+                          <ion-icon name="cash-outline"></ion-icon>
+                      </span>
+                      <span class="text">Sponsors</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="../Teams_Page/Teams.html">
+                      <span class="icon">
+                          <!--Ion icon for teams -->
+                          <ion-icon name="people-outline"></ion-icon>
+                      </span>
+                      <span class="text">Teams</span>
+                  </a>
+              </li>
+              <li>
+                <a href="./contactUs-page/contact.html">
+                    <span class="icon">
+                        <!--Ion icon for teams -->
+                        <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                    <span class="text">Teams</span>
+                </a>
+            </li>
+          </ul>
         </div>
       </nav>
 <!-- Navbar End-->
@@ -111,7 +129,10 @@
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
-    })
+
+        document.getElementById("myForm").reset();
+      }
+    )
 
     function validateForm(form) {
       Swal.fire({
@@ -122,8 +143,7 @@
         showConfirmButton: false,
         timer: 1500,
       })
-
-      document.getElementById("myForm").reset();
+      
     }
 
   </script>
