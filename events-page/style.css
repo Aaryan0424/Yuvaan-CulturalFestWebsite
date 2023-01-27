@@ -174,7 +174,7 @@ button:focus {
 
 /*navigation bar*/
 .navigation {
-	top : 25%;
+	top : 20%;
 	position: fixed;
 	width: 80px;
 	background: #fff;
@@ -381,6 +381,7 @@ button:focus {
 	margin-right: 0.5rem;
 	background: #EF2F3C;
 	width: 15rem;
+	margin-bottom: 1.5rem;
   }
   
   .hours {
