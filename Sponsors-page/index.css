@@ -231,6 +231,7 @@ h1:hover:before {
 }
 
 .header1{
+  padding: 1rem 0;
   font-family: 'Karla', sans-serif;
   font-size: 4vw;
 }
@@ -326,13 +327,16 @@ h1:hover:before {
 
 @media only screen and (max-width: 750px) {
 
-  
+  .header1{
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
 
   nav.active{
     top:15%;
   }
   .navigation{
-    margin-top: 13.5rem;
+    margin-top: 10rem;
     zoom: .7;
     width: 5rem;
 }
