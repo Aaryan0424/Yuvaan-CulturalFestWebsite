@@ -132,90 +132,7 @@ body {
   
   
   /* // Adjusting layout for small screens */
-  @media screen and (max-width: 760px) {
-    .container {
-      /* // 1 column grid */
-      grid-template-columns: 1.5fr;
-      /* // Fix image centering */
-      justify-items: center;
-      z-index:150;
 
-    }
-
-    .sun { 
-      top: 50%;
-    }
-  
-    /* // Fix image centering */
-    .image:nth-child(2n) {
-      justify-self: center;
-      z-index:150;
-      
-    }
-
-    .image:nth-child(2) {
-      z-index:150;
-      
-
-      background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image1.jpg');
-    }
-    .image:nth-child(3) {
-      z-index:150;
-      
-
-      background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image2.jpg');
-    }
-    .image:nth-child(4) {
-      z-index:150;
-      
-
-      background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image3.jpg');
-    }
-    .image:nth-child(5) {
-      z-index:150;
-
-      background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image4.jpg');
-    }
-    .image:nth-child(6) {
-      z-index:150;
-      
-
-      background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image5.jpg');
-    }
-    .image:nth-child(7) {
-      z-index:150;
-      
-
-      background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image6.jpg');
-    }
-    .image:nth-child(8) {
-      z-index:150;
-      
-
-      background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image7.jpg');
-    }
-    .image:nth-child(9) {
-      z-index:150;
-      
-
-      background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image8.jpg');
-    }
-    .image:nth-child(10) {
-      z-index:150;
-      
-
-      background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image9.jpg');
-    }
-    .image:nth-child(11) {
-      z-index:150;
-      
-
-      background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image10.jpg');
-    }
-    
-
-  }
-  
 
 
 
@@ -360,7 +277,7 @@ body {
     top: 50%;
   }
   100% {
-    top: 35%;
+    top: 40%;
   }
 }
 
@@ -559,4 +476,91 @@ body {
   100% {
     border-radius: 10%;
   }
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    /* // 1 column grid */
+    grid-template-columns: 1.5fr;
+    /* // Fix image centering */
+    justify-items: center;
+    z-index:150;
+
+  }
+
+  .sun {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    top:70%;
+    left: 50%;
+  }
+  /* // Fix image centering */
+  .image:nth-child(2n) {
+    justify-self: center;
+    z-index:150;
+    
+  }
+
+  .image:nth-child(2) {
+    z-index:150;
+    
+
+    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image1.jpg');
+  }
+  .image:nth-child(3) {
+    z-index:150;
+    
+
+    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image2.jpg');
+  }
+  .image:nth-child(4) {
+    z-index:150;
+    
+
+    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image3.jpg');
+  }
+  .image:nth-child(5) {
+    z-index:150;
+
+    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image4.jpg');
+  }
+  .image:nth-child(6) {
+    z-index:150;
+    
+
+    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image5.jpg');
+  }
+  .image:nth-child(7) {
+    z-index:150;
+    
+
+    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image6.jpg');
+  }
+  .image:nth-child(8) {
+    z-index:150;
+    
+
+    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image7.jpg');
+  }
+  .image:nth-child(9) {
+    z-index:150;
+    
+
+    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image8.jpg');
+  }
+  .image:nth-child(10) {
+    z-index:150;
+    
+
+    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image9.jpg');
+  }
+  .image:nth-child(11) {
+    z-index:150;
+    
+
+    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image10.jpg');
+  }
+  
+
 }
