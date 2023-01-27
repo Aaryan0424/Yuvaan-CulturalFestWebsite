@@ -12,7 +12,7 @@ body {
   background-repeat: no-repeat;
   background-size: fill;
 }
-/* 
+
 nav{
   position: fixed;
   width: 5rem;
@@ -165,7 +165,7 @@ nav.active{
   justify-content: center;
   align-items: center;
   font-size: 1.25rem;
-} */
+}
 
 
 .main_body {
