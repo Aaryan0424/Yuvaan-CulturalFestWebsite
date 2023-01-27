@@ -17,7 +17,7 @@ nav{
   position: fixed;
   width: 5rem;
   z-index: 1;
-  top:18%;
+  top: 20%;
   transition: 0.5s;
 }
 
