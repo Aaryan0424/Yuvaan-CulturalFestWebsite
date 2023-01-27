@@ -15,7 +15,7 @@ body {
 }
 
 .navigation {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     position: fixed;
     width: 5rem;
     background: #fff;

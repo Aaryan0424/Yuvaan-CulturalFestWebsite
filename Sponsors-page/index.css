@@ -332,7 +332,9 @@ h1:hover:before {
     top:15%;
   }
   .navigation{
-    width: 4rem;
+    margin-top: 13.5rem;
+    zoom: .7;
+    width: 5rem;
 }
 
 .navigation.active{
