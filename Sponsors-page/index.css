@@ -45,7 +45,7 @@ nav.active{
 .navigation .menu_toggle {
   position: relative;
   width: 8rem;
-  height: 7rem;
+  height: 6rem;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -319,7 +319,15 @@ h1:hover:before {
   letter-spacing: 1px;
 }
 
+.menu_toggle {
+  padding-left: .9rem;
+}
+
+
 @media only screen and (max-width: 750px) {
+
+  
+
   nav.active{
     top:15%;
   }
@@ -333,7 +341,7 @@ h1:hover:before {
 }
 
 .navigation .menu li a{
-    margin-left: -.6rem;
+    /* margin-left: -.6rem; */
 }
 
 

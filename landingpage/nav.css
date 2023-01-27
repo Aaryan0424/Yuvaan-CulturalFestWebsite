@@ -158,6 +158,11 @@ body {
     font-size: 1.25rem;
 }
 
+.menu_toggle {
+    padding-left: .9rem;
+  }
+  
+
 /* nav bar style ends */
 
 @media screen and  (max-width: 500px) {

@@ -27,6 +27,11 @@ body {
     /* height: fixed; */
     /* height: calc(60vh - 40px); */
   }
+
+  /* background sky - #f8a492
+  Mountain color - #a2586d
+  trees - #41315e
+  dark shade trees - #141025 */
   
   /* The container for all images */
   .container {
@@ -37,6 +42,8 @@ body {
     grid-gap: 0 10%;
     justify-items: end; 
     z-index:150;
+
+    margin-bottom: 100vh;
     
 
     /* This will align all items (images) to the right */
@@ -54,7 +61,7 @@ body {
   .image {
     position: relative;
     width: 300px;
-    height: 100vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-position: center;
     z-index:150;
@@ -128,30 +135,39 @@ body {
   @media screen and (max-width: 760px) {
     .container {
       /* // 1 column grid */
-      grid-template-columns: 1fr;
+      grid-template-columns: 1.5fr;
       /* // Fix image centering */
       justify-items: center;
       z-index:150;
+
+    }
+
+    .sun { 
+      top: 50%;
     }
   
     /* // Fix image centering */
     .image:nth-child(2n) {
       justify-self: center;
       z-index:150;
+      
     }
 
     .image:nth-child(2) {
       z-index:150;
+      
 
       background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image1.jpg');
     }
     .image:nth-child(3) {
       z-index:150;
+      
 
       background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image2.jpg');
     }
     .image:nth-child(4) {
       z-index:150;
+      
 
       background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image3.jpg');
     }
@@ -162,31 +178,37 @@ body {
     }
     .image:nth-child(6) {
       z-index:150;
+      
 
       background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image5.jpg');
     }
     .image:nth-child(7) {
       z-index:150;
+      
 
       background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image6.jpg');
     }
     .image:nth-child(8) {
       z-index:150;
+      
 
       background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image7.jpg');
     }
     .image:nth-child(9) {
       z-index:150;
+      
 
       background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image8.jpg');
     }
     .image:nth-child(10) {
       z-index:150;
+      
 
       background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image9.jpg');
     }
     .image:nth-child(11) {
       z-index:150;
+      
 
       background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/scroll-based-animation/img/image10.jpg');
     }
@@ -230,8 +252,9 @@ body {
   width: 100%;
   height:100vh;
   top: 0;
-  background-image: radial-gradient(#ffa86a,#fe6900,#aa3f54,#6b07aa);
-
+  /* background-image: radial-gradient(#ffa86a,#fe6900,#aa3f54,#6b07aa); */
+  background-color: #ff937b;
+  /* #f6cf74 */
   /* background: radial-gradient(at 50% 70%, #820, #610, #400, #100); */
   z-index: 30;
   
@@ -317,14 +340,16 @@ body {
 }
 
 .sun {
-  width: 6rem;
-  height: 6rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
-  /* top:30%; */
-  left: 45.75%;
+  top:70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 40;
-  background: linear-gradient(#ff0, #d00);
-  box-shadow: 0 0 40px 6px #f20, 0 0 150px 10px #f33;
+  /* background: linear-gradient(#ff0, #d00); */
+  background: #f6cf74;
+  box-shadow: 0 0 40px 6px #FFF;
   animation: rise 12s ease forwards;
   margin-top:4rem;
   
