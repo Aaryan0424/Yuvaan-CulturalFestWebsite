@@ -1,0 +1,59 @@
+
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="./contactstyle.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contact-form">
+      <div class="first-container">
+        <div class="info-container">
+          <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=401&amp;height=341&amp;hl=en&amp;q=Indian Institute of Informaiton Technology Guwahati&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.gachacute.com/">www.gachacute.com</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:341px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:341px;}.gmap_iframe {height:341px!important;}</style>
+        </div>
+      </div>
+      <div class="second-container">
+        <h2>Send Us A Message</h2>
+        <form name="contact-us">
+          <div class="form-group">
+            <label for="name-input">Tell us your name*</label>
+            <input id="name-input" name="name" type="text" placeholder="Full name" required="required"/>
+          </div>
+          <div class="form-group">
+            <label for="email-input">Enter your email*</label>
+            <input id="email-input" name="email" type="text" placeholder="Eg. example@email.com" required="required"/>
+          </div>
+          <div class="form-group">
+            <label for="phone-input">Enter phone number*</label>
+            <input id="phone-input" name="phone" type="text" placeholder="Eg. +1 800 000000" required="required"/>
+          </div>
+          <div class="form-group">
+            <label for="message-textarea">Message</label>
+            <textarea id="message-textarea" name="message" placeholder="Write us a message"></textarea>
+          </div>
+          <button type="submit">Send message</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxi92q7Lz_8x7JDyliuS1RtI6A-eDE3K-M1W6d7w7H8O9cLJfhqgnZLUxYRzhf2SfXw5Q/exec'
+    const form = document.forms['contact-us']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
