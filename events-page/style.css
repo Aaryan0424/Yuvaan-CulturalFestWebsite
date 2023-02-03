@@ -37,7 +37,7 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'montserrat', sans-serif !important;
 	font-size: 15px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
@@ -673,6 +673,8 @@ button:focus {
 }
 
 .mu-about-right {
+	font-family: 'montserrat', sans-serif;
+	font-size: larger;
 	display: inline;
 	float: left;
 	margin-top: 30px;
@@ -1201,7 +1203,7 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/register-bg.jpg");
+	background-image: url("assets/images/20210924_055757.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1219,7 +1221,7 @@ button:focus {
 	top: 0;
 	right: 0;
 	position: absolute;
-	opacity: 0.9;
+	opacity: 0.7;
 }
 
 .mu-register-area {
@@ -1405,7 +1407,7 @@ button:focus {
 .mu-contact-area {
 	display: inline;
 	float: left;
-	padding: 100px 0 50px;
+	padding: 25px 0 10px;
 	width: 100%;
 }
 
