@@ -1,5 +1,6 @@
 body,
 html{
+      font-family: 'montserrat', sans-serif !important;
       margin: 0;
       padding: 0;
       height: 100%;
@@ -81,7 +82,8 @@ svg {
  }
 
  .sticky-statement .textH1 {
-   font-family: 'Montserrat', sans-serif;
+   letter-spacing: 0.1rem;
+   line-height: 2rem;
    font-size: 1.4rem;
    color: #fff;
    justify-content: center;

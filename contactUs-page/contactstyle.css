@@ -4,7 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "Poppins", sans-serif;
+  font-family: 'montserrat', sans-serif !important;
 }
 
 
@@ -114,6 +114,7 @@ body {
 .contact-form .second-container form button:hover {
   background: #333;
 }
+
 
 @media screen and (max-width: 800px) {
   .contact-form {
