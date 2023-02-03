@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu+Mono:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +9,7 @@ body {
     justify-content: left;
     flex-direction: row;
     min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'montserrat', 'sans-serif';
     background-image: linear-gradient(#d2cf2b,#ff8d3d, #59d5c4, #ac62da );
 }
 
