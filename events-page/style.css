@@ -174,7 +174,8 @@ button:focus {
 
 /*navigation bar*/
 .navigation {
-	top : 20%;
+	/* top : 20%; */
+	margin-top: 2rem;
 	position: fixed;
 	width: 80px;
 	background: #fff;

@@ -9,13 +9,13 @@ body {
     display: flex;
     justify-content: left;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     min-height: 100vh;
     background-color: #f7f7f7;
 }
 
 .navigation {
-    /* margin-top: 4rem; */
+    margin-top: 2rem;
     position: fixed;
     width: 5rem;
     background: #fff;

@@ -17,11 +17,12 @@ nav{
   position: fixed;
   width: 5rem;
   z-index: 1;
-  top: 20%;
+  /* top: 20%; */
   transition: 0.5s;
 }
 
 .navigation {
+  margin-top: 2rem;
   width: 5rem;
   background: #fff;
   display: flex;
@@ -33,9 +34,9 @@ nav{
   overflow: hidden;
 }
 
-nav.active{
+/* nav.active{
   top: 5%;
-}
+} */
 
 .navigation.active {
   width: 20rem;
