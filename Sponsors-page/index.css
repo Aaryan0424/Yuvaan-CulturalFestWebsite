@@ -334,9 +334,6 @@ h1:hover:before {
     font-size: 2rem;
   }
 
-  nav.active{
-    top:15%;
-  }
   .navigation{
     margin-top: 10rem;
     zoom: .7;
