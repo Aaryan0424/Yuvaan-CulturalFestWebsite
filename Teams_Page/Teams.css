@@ -528,4 +528,22 @@ a:hover {
     .team{
         padding: 2rem 0;
     }
+
+    .member-info h3{
+        font-size: 0.6rem;
+    }
+
+    .member-info p{
+        font-size: 0.6rem;
+    }
+    /*straight the image */
+    .straight{
+        transform: rotate(0deg) scale(1.5) !important; 
+    }
+    #deepanshu{
+        transform: rotate(0deg) scale(3.5) !important; 
+    }
+    #kunal{
+        transform: rotate(0deg) scale(3.5) translateY(-9px) !important; 
+    }
   }
