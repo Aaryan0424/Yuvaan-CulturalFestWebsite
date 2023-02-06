@@ -174,7 +174,7 @@ nav {
     .navigation{
         transform:  scaleY(0.7);
         width: 4rem;
-        margin-top: 14rem;
+        margin-top: 2rem;
     }
     #temp{
         padding-left: 0;
