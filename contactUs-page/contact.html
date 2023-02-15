@@ -13,6 +13,7 @@
     https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.min.css
     " rel="stylesheet"></link>
     <title>ContactUs</title>
+    <link rel="shortcut icon" type="image/icon" href="Yuvaan_Logo.png"/>
   </head>
   <body>
     <!-- Navbar Start-->
@@ -84,10 +85,10 @@
         </div>
       </div>
       <div class="second-container">
-        <h2>Send Us A Message</h2>
+        <h2>Register With Us</h2>
         <form name="contact-us" method = "POST" onsubmit=" return validateForm(form);" id="myForm">
           <div class="form-group">
-            <label for="name-input">Tell us your name*</label>
+            <label for="name-input">Your Name*</label>
             <input id="name-input" name="name" type="text" placeholder="Full name" required="required"/>
           </div>
           <div class="form-group">
@@ -96,13 +97,19 @@
           </div>
           <div class="form-group">
             <label for="phone-input">Enter phone number*</label>
-            <input id="phone-input" name="phone" type="tel" pattern = "[789][0-9]{9}" placeholder="Eg. 7856******" required="required"/>
+            <input id="phone-input" name="phone" type="tel" pattern = "[0-9][0-9]{9}" placeholder="Eg. 7856******" required="required"/>
           </div>
           <div class="form-group">
-            <label for="message-textarea">Message</label>
-            <textarea id="message-textarea" name="message" placeholder="Write us a message" required="required" ></textarea>
+            <!-- option for within institute or outside -->
+            <label for="institute-input">Are you from within the institute?</label>
+            <select id="institute-input" name="institute" required="required">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+            <!-- <label for="message-textarea">Message</label>
+            <textarea id="message-textarea" name="message" placeholder="Write us a message" required="required" ></textarea> -->
           </div>
-          <button type="submit" value="submit" >Send message</button>
+          <button type="submit" value="submit" >Register Now</button>
         </form>
       </div>  
     </div>
@@ -139,8 +146,8 @@
       Swal.fire({
         position: 'center',
         icon: 'success',
-        title: 'Message Sent Successfully',
-        text: 'Our team will contact you soon',
+        title: 'Registered Successfully',
+        text: 'Thank you for registering with us!',
         showConfirmButton: false,
         timer: 1500,
       })
