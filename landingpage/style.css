@@ -16,6 +16,15 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+.logo{
+    z-index: 11;
+    width: 60px;
+    height: 10px;
+    transform: scale(0.06);
+    position: fixed;
+    /* right: 5px; */
+    left: 5rem;
+}
 
 svg {
       display: block;
@@ -99,4 +108,8 @@ svg {
     font-size: 1rem;
       margin: 2rem;
  }
-}
+ .logo{
+    transform: scale(0.04);
+    left: -1rem;
+  }
+ }
