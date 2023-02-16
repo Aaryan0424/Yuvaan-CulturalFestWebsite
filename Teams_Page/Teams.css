@@ -540,10 +540,13 @@ a:hover {
     .straight{
         transform: rotate(0deg) scale(1.5) !important; 
     }
-    #deepanshu{
-        transform: rotate(0deg) scale(3.5) !important; 
+    #harsh{
+        transform: rotate(0deg) scale(1.1) !important;
     }
-    #kunal{
-        transform: rotate(0deg) scale(3.5) translateY(-9px) !important; 
+    #yogesh{
+        transform: rotate(0deg) scale(1.1) !important;
+    }
+    #deepanshu{
+        transform: rotate(0deg) scale(1.2) !important;  
     }
   }

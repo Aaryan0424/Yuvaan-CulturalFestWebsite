@@ -15,7 +15,7 @@ header {
 }
 
 .navigation {
-    margin-top: 2rem;
+    margin-top: -1rem;
     position: fixed;
     width: 5rem;
     background: #fff;
