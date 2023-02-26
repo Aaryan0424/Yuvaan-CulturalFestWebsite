@@ -35,13 +35,14 @@ nav{
   overflow: hidden;
 }
 
-/* nav.active{
-  top: 5%;
-} */
+nav.active{
+  max-height: 90%;
+}
 
 .navigation.active {
   width: 20rem;
   margin-left: 8px;
+  max-height: 90vh;
 }
 
 .navigation .menu_toggle {

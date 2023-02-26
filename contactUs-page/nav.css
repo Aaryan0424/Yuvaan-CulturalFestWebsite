@@ -31,6 +31,7 @@ header {
 .navigation.active {
     width: 20rem;
     margin-left: 8px;
+    max-height: 90%;
 }
 
 .navigation .menu_toggle {
