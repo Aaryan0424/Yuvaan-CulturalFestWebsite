@@ -1,5 +1,5 @@
 * {
-  font-family: 'montserrat', sans-serif !important;
+  /* font-family: 'montserrat', sans-serif !important; */
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -96,7 +96,9 @@ nav.active{
   padding: 0 10px;
   width: 100%;
 }
-
+a{
+  color: rgb(46, 41, 41);
+}
 .navigation .profile .imgBx {
   position: relative;
   width: 60px;
@@ -235,8 +237,9 @@ h1:hover:before {
 
 .header1{
   padding: 1rem 0;
-  font-family: 'Karla', sans-serif;
-  font-size: 4vw;
+  font-size: 4.3vw;
+  font-family: 'Labrada', serif;
+  
 }
 
 .glass-box {
@@ -364,6 +367,6 @@ h1:hover:before {
 
 }
 
-.gplus_logo{
-  background-color: #f5e0c1;
+h2{
+  text-align: center;
 }
