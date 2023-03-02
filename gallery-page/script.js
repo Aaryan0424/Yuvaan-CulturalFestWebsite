@@ -10,7 +10,52 @@
  *   CriOS/45.0.2454.89 Mobile/13A344 Safari/600.1.4 (000205)
  */
  
+
+
+
+
+
 const iOSChromeDetected = /CriOS/.test(navigator.userAgent);
+
+
+function changeImage()
+{
+  // document.getElementById("image:nth-child(3)").style.backgroundImage = "url('images/yuvaan1.jpg')";
+  document.querySelector(".image:nth-child(3)").style.backgroundImage = "url('images/yuvaan5.jpg')";
+  document.querySelector(".image:nth-child(4)").style.backgroundImage = "url('images/yuvaan4.jpg')";
+  document.querySelector(".image:nth-child(5)").style.backgroundImage = "url('images/yuvaan3.jpg')";
+  document.querySelector(".image:nth-child(6)").style.backgroundImage = "url('images/yuvaan2.jpg')";
+  document.querySelector(".image:nth-child(7)").style.backgroundImage = "url('images/yuvaan1.jpg')";
+  document.querySelector(".image:nth-child(8)").style.backgroundImage = "url('images/yuvaan5.jpg')";
+  document.querySelector(".image:nth-child(9)").style.backgroundImage = "url('images/yuvaan4.jpg')";
+  document.querySelector(".image:nth-child(10)").style.backgroundImage = "url('images/yuvaan3.jpg')";
+  document.querySelector(".image:nth-child(11)").style.backgroundImage = "url('images/yuvaan2.jpg')";
+  document.querySelector(".image:nth-child(12)").style.backgroundImage = "url('images/yuvaan1.jpg')";
+  // document.querySelector(".image:nth-child(13)").style.backgroundImage = "url('images/yuvaan1.jpg')";
+  
+return false;
+}
+
+function changeImage2()
+{
+  // document.getElementById("image:nth-child(3)").style.backgroundImage = "url('images/yuvaan1.jpg')";
+  document.querySelector(".image:nth-child(3)").style.backgroundImage = "url('images/yuvaan1.jpg')";
+  document.querySelector(".image:nth-child(4)").style.backgroundImage = "url('images/yuvaan2.jpg')";
+  document.querySelector(".image:nth-child(5)").style.backgroundImage = "url('images/yuvaan3.jpg')";
+  document.querySelector(".image:nth-child(6)").style.backgroundImage = "url('images/yuvaan4.jpg')";
+  document.querySelector(".image:nth-child(7)").style.backgroundImage = "url('images/yuvaan5.jpg')";
+  document.querySelector(".image:nth-child(8)").style.backgroundImage = "url('images/yuvaan1.jpg')";
+  document.querySelector(".image:nth-child(9)").style.backgroundImage = "url('images/yuvaan2.jpg')";
+  document.querySelector(".image:nth-child(10)").style.backgroundImage = "url('images/yuvaan3.jpg')";
+  document.querySelector(".image:nth-child(11)").style.backgroundImage = "url('images/yuvaan4.jpg')";
+  document.querySelector(".image:nth-child(12)").style.backgroundImage = "url('images/yuvaan5.jpg')";
+  // document.querySelector(".image:nth-child(13)").style.backgroundImage = "url('images/yuvaan1.jpg')";
+  
+return false;
+}
+
+
+
 
 if (iOSChromeDetected) {
   const getHeight = function getComputedHeightFrom(element) {

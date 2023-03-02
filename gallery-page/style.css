@@ -16,6 +16,11 @@ body {
     
   }
   
+
+  
+
+
+
   /* The styles for a `div` element (inserted with Javascript) */
   /* Used to make the page scrollable */
   /* Will be setted a proper `height` value using Javascript */
@@ -489,6 +494,7 @@ body {
 
   }
 
+  
   .sun {
     width: 10rem;
     height: 10rem;
