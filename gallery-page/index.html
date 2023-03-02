@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <title>Gallery</title>
+    <title>Gallery</title> 
+    
     <link rel="shortcut icon" type="image/icon" href="Yuvaan_Logo.png"/>
 </head>
 <body>
+  <div class = "buttons" style="width: fit-content ; position: fixed; z-index:999;">
+    <button class = "custom-btn btn-3" style="z-index:999; position:relative ;width: 150%;" id="clickme" onclick="changeImage();"><span>PRE-EVENTS</span></button>
+    <br>
+    <button class = "custom-btn btn-3" style="z-index:999; position:relative ;width: 150%;" id="clickme2" onclick="changeImage2();"><span>MAIN-EVENT</span></button>
+  </div>
   <!-- Navbar Start-->
   <div class="navigation" style="z-index: 400;">
     <div class="menu_toggle" id = "threelines"></div>
