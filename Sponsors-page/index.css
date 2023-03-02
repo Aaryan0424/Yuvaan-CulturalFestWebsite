@@ -303,6 +303,14 @@ h1:hover:before {
   background-color: white;
 }
 
+.glow-border {
+  box-shadow: 2px 2px 20px 2px rgb(255, 44, 2);
+  border: 1px solid rgba(255, 0, 0, 0.689);
+  background-color: rgb(23, 23, 23);
+  opacity: 1;
+  
+}
+
 .content {
   position: absolute;
   top: 0;
@@ -341,6 +349,10 @@ h1:hover:before {
 
 #edit_logo{
   background-color: black;
+}
+
+#titlespon{
+  width: 20em;
 }
 
 @media only screen and (max-width: 750px) {
