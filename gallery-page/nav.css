@@ -54,6 +54,7 @@ button {
   .btn-3 {
     background: rgb(0,172,238);
     background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    /* width: 130px; */
     width: 130px;
     height: 30px;
     line-height: 32px;
@@ -97,7 +98,7 @@ button {
     width: 100%;
   }
   .btn-3 span:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   .btn-3 span:before,
   .btn-3 span:after {
@@ -285,10 +286,11 @@ button {
 
     .buttons{
         margin-left: 0rem;
-        width: 150px;
+        width: 100px;
     }
     .btn-3{
         height: 40px;
+        width: 110%;
         line-height: 42px;
     }
     button{
