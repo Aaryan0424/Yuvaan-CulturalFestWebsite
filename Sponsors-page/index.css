@@ -258,7 +258,7 @@ h1:hover:before {
   flex-direction: column;
   justify-content: center;
   margin: 4%;
-  width: 79%;
+  width: 50%;
   padding-bottom: 5%;
 }
 
@@ -348,6 +348,9 @@ h1:hover:before {
   background-color: black;
 }
 
+.sbi_logo{
+  padding: 0 5px 0 5px;
+}
 
 @media only screen and (max-width: 750px) {
 
@@ -379,6 +382,9 @@ h1:hover:before {
      5px 5px,
      6px 6px,
      7px 7px;
+  }
+  .glass-box{
+    width: 79%;
   }
 
   /* .imgBox {
