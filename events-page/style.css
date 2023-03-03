@@ -356,7 +356,7 @@ button:focus {
   h1 {
 	font-family: 'Monsterrat', sans-serif;
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 1em;
 	font-size: 1em;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -513,7 +513,25 @@ button:focus {
 	border: 2px solid #fff;
 }
 
+#register_now{
+	color: #fff;
+	background-color: #111;
+	font-size: 1.5rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 14px 24px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 100px;
+}
 
+/* change text color on hover of register button */
+#register_now:hover {
+	color: #f15454;
+}
 
 /*=== Featured section ===*/
 
