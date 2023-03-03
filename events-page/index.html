@@ -1,522 +1,777 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Events</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/icon" href="Yuvaan_Logo.png"/>
+    <link rel="shortcut icon" type="image/icon" href="Yuvaan_Logo.png" />
     <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Slick slider -->
-    <link href="assets/css/slick.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet" />
     <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+    <link
+      id="switcher"
+      href="assets/css/theme-color/default-theme.css"
+      rel="stylesheet"
+    />
     <!-- Main Style -->
-    <link href="style.css" rel="stylesheet">
-	<!-- <link rel="stylesheet" href="../landingpage/nav.css" /> -->
-
+    <link href="style.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="../landingpage/nav.css" /> -->
     <!-- Fonts -->
 
     <!-- Open Sans for body font -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
-	<!-- Montserrat for title -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
- 
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800"
+      rel="stylesheet"
+    />
+    <!-- Montserrat for title -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
   </head>
   <body>
-	<div class="navigation" style="z-index: 11;">
-		<div class="menu_toggle" id = "threelines"></div>
-		<div class="profile">
-			<div class="imgBx">
-				<img src="Yuvaan_Logo.png" alt="" />
-			</div>
-		</div>
-		<ul class="menu" id="temp">
-            <li>
-                <a href="../index.html">
-                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
-                    <span class="text">Home</span>
-                </a>
-            </li>
-            <li>
-                <a href = "../events-page/index.html">
-                    <span class="icon">
-                        <ion-icon name="calendar-outline"></ion-icon>
-                    </span>
-                    <span class="text">Events</span>
-                </a>
-            </li>
-            <li>
-                <a href="../gallery-page/index.html">
-                    <span class="icon">
-                        <ion-icon name="images-outline"></ion-icon>
-                    </span>
-                    <span class="text">Gallery</span>
-                </a>
-            </li>
-            <li>
-                <a href="../Sponsors-page/index.html">
-                    <span class="icon">
-                        <ion-icon name="cash-outline"></ion-icon>
-                    </span>
-                    <span class="text">Sponsors</span>
-                </a>
-            </li>
-            <li>
-                <a href="../Teams_Page/Teams.html">
-                    <span class="icon">
-                        <!--Ion icon for teams -->
-                        <ion-icon name="people-outline"></ion-icon>
-                    </span>
-                    <span class="text">Teams</span>
-                </a>
-            </li>
-			<li>
-                <a href="../contactUs-page/contact.html">
-                    <span class="icon">
-                        <!--Ion icon for teams -->
-                        <ion-icon name="call-outline"></ion-icon>
-                    </span>
-                    <span class="text">Contact Us</span>
-                </a>
-            </li>
-        </ul>
-	</div>
-  	<!-- Start Header -->
-	<header id="mu-hero" class="" role="banner">
-		<div>
-			<div class="container">
-				<div class="mu-hero-area">
+    <div class="navigation" style="z-index: 11">
+      <div class="menu_toggle" id="threelines"></div>
+      <div class="profile">
+        <div class="imgBx">
+          <img src="Yuvaan_Logo.png" alt="" />
+        </div>
+      </div>
+      <ul class="menu" id="temp">
+        <li>
+          <a href="../index.html">
+            <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+            <span class="text">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="../events-page/index.html">
+            <span class="icon">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </span>
+            <span class="text">Events</span>
+          </a>
+        </li>
+        <li>
+          <a href="../gallery-page/index.html">
+            <span class="icon">
+              <ion-icon name="images-outline"></ion-icon>
+            </span>
+            <span class="text">Gallery</span>
+          </a>
+        </li>
+        <li>
+          <a href="../Sponsors-page/index.html">
+            <span class="icon">
+              <ion-icon name="cash-outline"></ion-icon>
+            </span>
+            <span class="text">Sponsors</span>
+          </a>
+        </li>
+        <li>
+          <a href="../Teams_Page/Teams.html">
+            <span class="icon">
+              <!--Ion icon for teams -->
+              <ion-icon name="people-outline"></ion-icon>
+            </span>
+            <span class="text">Teams</span>
+          </a>
+        </li>
+        <li>
+          <a href="../contactUs-page/contact.html">
+            <span class="icon">
+              <!--Ion icon for teams -->
+              <ion-icon name="call-outline"></ion-icon>
+            </span>
+            <span class="text">Contact Us</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Start Header -->
+    <header id="mu-hero" class="" role="banner">
+      <div>
+        <div class="container">
+          <div class="mu-hero-area">
+            <!-- Start hero featured area -->
+            <div class="mu-hero-featured-area">
+              <!-- Start center Logo -->
+              <div class="mu-logo-area">
+                <!-- text based logo -->
+                <!-- <a class="mu-logo" href="#">YUVAAN</a> -->
+                <!-- image based logo -->
+                <!-- <a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a> -->
+              </div>
+              <!-- End center Logo -->
 
-					<!-- Start hero featured area -->
-					<div class="mu-hero-featured-area">
-						<!-- Start center Logo -->
-						<div class="mu-logo-area">
-							<!-- text based logo -->
-							<!-- <a class="mu-logo" href="#">YUVAAN</a> -->
-							<!-- image based logo -->
-							<!-- <a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a> -->
-						</div>
-						<!-- End center Logo -->
+              <div class="mu-hero-featured-content">
+                <h1>Events</h1>
+                <h2>Cultural Fest of IIIT Guwahati</h2>
+                <p class="mu-event-date-line">4 - 5 March, 2023.</p>
 
-						<div class="mu-hero-featured-content">
+                <div class="mu-event-counter-area">
+                  <div class="container">
+                    <div id="timer"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End hero featured area -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
 
-							<h1>Events </h1>
-							<h2>Cultural Fest of IIIT Guwahati</h2>
-							<p class="mu-event-date-line">4 - 5 March, 2023. </p>
+    <!-- Start main content -->
+    <main role="main">
+      <!-- Start About -->
+      <section id="mu-about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mu-about-area">
+                <!-- Start Feature Content -->
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mu-about-left">
+                      <img
+                        class=""
+                        src="assets/images/about1.png"
+                        alt="Men Speaker"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mu-about-right">
+                      <h2>About Yuvaan</h2>
+                      <p>
+                        One of the most awaited events in North East India is
+                        back with a bang to fill your hearts with fun and
+                        enthusiasm. Yuvaan is the annual cultural fest of IIIT
+                        Guwahati. This year, we have a vision to witness YUVAAN
+                        at new horizons, bring more hidden talents on display,
+                        award and appreciate every curious and skillful mind
+                        with a lot of thrill and amusement.Yuvaan is a
+                        celebration of art, culture, and youth for young and
+                        creative minds.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Feature Content -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About -->
 
-							<div class="mu-event-counter-area">
-								<div class="container">
-									<div id="timer"></div>
-								</div>
-							</div>
+      <!-- Start Video -->
+      <section id="mu-video">
+        <div class="mu-video-overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mu-video-area">
+                  <h2>Watch Previous Event Video</h2>
+                  <a class="mu-video-play-btn" href="#"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-						</div>
-					</div>
-					<!-- End hero featured area -->
+        <!-- Start Video content -->
+        <div class="mu-video-content">
+          <div class="mu-video-iframe-area">
+            <a class="mu-video-close-btn" href="#"
+              ><i class="fa fa-times" aria-hidden="true"></i
+            ></a>
+            <iframe
+              width="854"
+              height="480"
+              src="https://www.youtube.com/embed/7XEw20hXdc0"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <!-- End Video content -->
+      </section>
+      <!-- End Video -->
 
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- End Header -->
-	
-	<!-- Start main content -->
-	<main role="main">
-		<!-- Start About -->
-		<section id="mu-about">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-about-area">
-							<!-- Start Feature Content -->
-							<div class="row">
-								<div class="col-md-6">
-									<div class="mu-about-left">
-										<img class="" src="assets/images/about1.png" alt="Men Speaker">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="mu-about-right">
-										<h2>About Yuvaan</h2>
-										<p>One of the most awaited events in North East India is back with a
-											bang to fill your hearts with fun and enthusiasm.
-											Yuvaan is the annual cultural fest of IIIT Guwahati. This year, we have
-											a vision to witness YUVAAN at new horizons, bring more hidden
-											talents on display, award and appreciate every curious and skillful
-											mind with a lot of thrill and amusement.Yuvaan is a celebration of art,
-											culture, and youth for young and creative minds.</p>
-									</div>
-								</div>
-							</div>
-							<!-- End Feature Content -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End About -->
+      <!-- Start Schedule  -->
+      <section id="mu-schedule">
+        <div class="container">
+          <div class="row">
+            <div class="colo-md-12">
+              <div class="mu-schedule-area">
+                <div class="mu-title-area">
+                  <h2 class="mu-title">Schedule Detail</h2>
+                  <p>
+                    This is the daily wise analysis of the events that will
+                    occur in YUVAAN.
+                  </p>
+                </div>
 
-		<!-- Start Video -->
-		<section id="mu-video">
-			<div class="mu-video-overlay">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="mu-video-area">
-								<h2>Watch Previous Event Video</h2>
-								<a class="mu-video-play-btn" href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                <div class="mu-schedule-content-area">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs mu-schedule-menu" role="tablist">
+                    <li role="presentation" class="active">
+                      <a
+                        href="#first-day"
+                        aria-controls="first-day"
+                        role="tab"
+                        data-toggle="tab"
+                        >1 Day / 4 March</a
+                      >
+                    </li>
+                    <li role="presentation">
+                      <a
+                        href="#second-day"
+                        aria-controls="second-day"
+                        role="tab"
+                        data-toggle="tab"
+                        >2 Day / 5 March</a
+                      >
+                    </li>
+                    <li role="presentation">
+                      <a
+                        href="#third-day"
+                        aria-controls="third-day"
+                        role="tab"
+                        data-toggle="tab"
+                        >Pre Events</a
+                      >
+                    </li>
+                  </ul>
 
-			<!-- Start Video content -->
-			<div class="mu-video-content">
-				<div class="mu-video-iframe-area">
-					<a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-					<iframe width="854" height="480" src="https://www.youtube.com/embed/7XEw20hXdc0" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-			<!-- End Video content -->
+                  <!-- Tab panes -->
+                  <div class="tab-content mu-schedule-content">
+                    <div
+                      role="tabpanel"
+                      class="tab-pane fade mu-event-timeline in active"
+                      id="first-day"
+                    >
+                      <ul>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Inaugural Cermony Dance and Music</h3>
+                            <p class="mu-event-time">11.00 AM - 12.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              The openeing ceremony of Yuvaan will be a grand
+                              event with a performance by the students of IIITG.
+                              The event will be followed by a dance performance
+                              by the students of IIITG.
+                            </span>
+                            <!-- stylish Registration button  -->
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Open Mic</h3>
+                            <p class="mu-event-time">12.30 PM - 2.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : LG1
+                            </p>
+                            <span>
+                              Amateur speakers can come up and speak freely
+                              about any incident/literary piece(poetry/prose)-
+                              self or someone else's piece/do a stand-up etc.
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/Dq1VGHHz3DiEf5Xd8"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Dance Competitions (Group)</h3>
+                            <p class="mu-event-time">2.30 PM - 6.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              From elegant classics to power-packed
+                              masterpieces, here we present before you a
+                              spectacle of stunning dance performances that will
+                              shift you right off your feet and get you dancing
+                              to their beat!
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/vzUPFzemvj1cAug9A"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Face Painting</h3>
+                            <p class="mu-event-time">3.00 PM - 5.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              “Behind every mask there’s a face and behind every
+                              face there’s a story” So, here we bring to you the
+                              opportunity to tell your story by face painting,
+                              thus giving face to your story.
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/FrFNZgAm16zxq7n39"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Talk Show</h3>
+                            <p class="mu-event-time">3.00 PM - 5.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : LG 1
+                            </p>
+                            <span>
+                              Get ready to be inspired and empowered by Tinat
+                              Atifa Masood's seminar on motivation and success.
+                              Whether you're looking to excel academically,
+                              start your own business, or pursue your passions,
+                              this seminar will give you the tools and mindset
+                              to achieve your dreams.
+                            </span>
+                            <!-- <br>
+													<br>
+													<a id="register_now" href="" target="_blank" class="mu-readmore-btn" >Register</a> -->
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Mixed Media Art</h3>
+                            <p class="mu-event-time">5.30 PM - 7.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : LG2
+                            </p>
+                            <span>
+                              Woods, fabrics, shells, plastic, and paper all
+                              check! Oh no pardon me that's not for some rescue
+                              mission, it's time for painting a new day with
+                              everything but paints. You heard that right amigo!
+                              Grab anything that you like from buttons to shells
+                              and be the next Pablo Picasso!
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/yXD9X8v3NgHndBZw8"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Band Performance by Malkauns</h3>
+                            <p class="mu-event-time">7.30 PM - 9.30PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              Get ready to be taken on a musical journey unlike
+                              any other, as MAULKANS delivers a captivating and
+                              unforgettable performance that will leave you
+                              wanting more.
+                            </span>
+                            <!-- <br>
+													<br>
+													<a id="register_now" href="" target="_blank" class="mu-readmore-btn" >Register</a> -->
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      role="tabpanel"
+                      class="tab-pane fade mu-event-timeline"
+                      id="second-day"
+                    >
+                      <ul>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>MUN - Model United Nations</h3>
+                            <p class="mu-event-time">All Day</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : LG 1
+                            </p>
+                            <span>
+                              Calling all young changemakers !! Join us for an
+                              empowering and educational experience as we invite
+                              you to participate in Model United Nations. This
+                              is your chance to step into the shoes of a
+                              diplomat and tackle some of the world's most
+                              pressing issues. Sharpen your negotiation and
+                              public speaking skills, make new friends, and gain
+                              a deeper understanding of global affairs.
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://muniiitg.yuvaaniiitg.org.in/"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Visit Here</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>TARANG</h3>
+                            <p class="mu-event-time">11.00 AM - 12.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              From the brihas to the swaras synthesised with Pop
+                              to R&B, boasting their skills are the melodious
+                              and rhythmic people at Yuvaan’s Solo Singing
+                              competition, TARANG. Thronged by singers battling
+                              it out at this colossal face-off, this event
+                              carries with itself a finesse that sets it apart.
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/Ks129L23EMSDpoM18"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Decibels</h3>
+                            <p class="mu-event-time">12.00 PM - 1.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              For those who want to cherish the beauty of notes,
+                              harmonies and melodies free from voices and words,
+                              we have YUVAAN's Solo instrumental event,
+                              DECIBELS. An event where musicians demonstrate
+                              their instrumental prowess, proving how one
+                              doesn’t need an entire band to sound musical.
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/LXn9FP7PmvZory9N8"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Mystic Hues</h3>
+                            <p class="mu-event-time">1.00 PM - 2.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              Embracing our musical roots, and staying true to
+                              YUVAAN’s nature of cultural richness, we have the
+                              Music of Bharat and the World, MYSTIC HUES. A
+                              grand event that is the home to the great Indian
+                              and Global musical acts of tomorrow.
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/Xf7xeJ7B6P4tcFd5A"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Canon Workshop</h3>
+                            <p class="mu-event-time">11.00 AM -1.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : LG2
+                            </p>
+                            <span>
+                              Join pro photographer Arpan Kalita and learn about
+                              the "A to Z" of Photography in an interactive
+                              session on photography by Canon!!
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://docs.google.com/forms/u/1/d/1Xbsjo9QC7zNam6BG1m38uUxRVox4yzQZHQj2VWV5X-0/edit?usp=sharing_eol_m"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Manga Cover</h3>
+                            <p class="mu-event-time">12.30 AM - 2.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              Well, Captain America vs Iron Man is a neverending
+                              debate, from Manga to Naruto they never fail to
+                              impress the audience, but do you want to create
+                              your own superhero or anime character, So we bring
+                              you an opportunity to convert the dream into
+                              reality.
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/s7W8pzbeUwhdAuwt6"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>MEMEFLIX Quiz</h3>
+                            <p class="mu-event-time">2.00 PM - 4.30PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : LG2
+                            </p>
+                            <span>
+                              Join us for testing your mettle in Music,
+                              Entertainment, Literature, and Arts in the most
+                              thrilling and anticipated Quiz.
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/XrVjf6rXDNeAa9bT7"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Footloose</h3>
+                            <p class="mu-event-time">2.30 PM - 4.00PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              Nobody should be able to convince you otherwise.
+                              There are no borders. Show your innate desire to
+                              dance by moving to the music..
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/X9v3NMq7GhPJj9Sv7"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>AD MAD</h3>
+                            <p class="mu-event-time">3.00 PM - 4.30PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : C1
+                            </p>
+                            <span>
+                              “I’m lovin’ it” “Pehle Istemaal kare fir vishwas
+                              kare” “It’s finger lickin’ good” Yes, we are
+                              surrounded by advertisements and the jingles and
+                              tag-lines are it’s identity. Do you want to create
+                              your own, well you are at the right place. LIGHTS
+                              CAMERA ACTION.... shooting starts in march.
+                            </span>
+                            <br />
+                            <br />
+                            <a
+                              id="register_now"
+                              href="https://forms.gle/DJ4qPvp66zPHqSf49"
+                              target="_blank"
+                              class="mu-readmore-btn"
+                              >Register</a
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>Cultural Performances Of Assam-PIB</h3>
+                            <p class="mu-event-time">5.00 PM - 6.30PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              Welcome to a mesmerizing North Eastern Indian
+                              classical dance performance, where the rich
+                              cultural heritage of the region comes alive
+                              through the mesmerizing movements and graceful
+                              expressions of the talented dancers.
+                            </span>
+                            <!-- <br>
+													<br>
+													<a id="register_now" href="" target="_blank" class="mu-readmore-btn" >Register</a> -->
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <h3>EDM Night By DJ Bickx</h3>
+                            <p class="mu-event-time">7.30 PM - 9.30PM</p>
+                            <p class="mu-event-time" style="align-content: end">
+                              Venue : IIITG Ground
+                            </p>
+                            <span>
+                              Be ready to experience the electrifying beats and
+                              dynamic rhythms of DJ BICKX! With a talent for
+                              reading the crowd and a passion for music that
+                              transcends genres, DJ BICKX is guaranteed to make
+                              you dance all night.
+                            </span>
+                            <!-- <br>
+													<br>
+													<a id="register_now" href="" target="_blank" class="mu-readmore-btn" >Register</a> -->
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      role="tabpanel"
+                      class="tab-pane fade mu-event-timeline"
+                      id="third-day"
+                    >
+                      <ul>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <p class="mu-event-time">10.00 AM</p> -->
+                            <h3>Flash Mob</h3>
+                            <span
+                              >Watch our dancers set the stage on fire with an
+                              electrifying performance skyrocketing the swag
+                              level of this enthralling evening. So pull up your
+                              socks and get ready to cheer on these snazzy
+                              superstars!
+                            </span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <!-- <p class="mu-event-time">10.00 AM</p> -->
+                            <h3>Literary discussion pannel</h3>
+                            <span
+                              >A literary cultural event which refines the
+                              potential of the strudents in becoming a
+                              writer.</span
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
+                            <!-- <p class="mu-event-time">10.00 AM</p> -->
+                            <h3>Social Events</h3>
+                            <span>
+                              Various cultural events and competitions conducted
+                              in with the collaboration of the cultural clubs.
+                            </span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event">
+                            <!-- <p class="mu-event-time">1.00 PM</p> -->
+                            <h3>The End</h3>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Schedule -->
 
-		</section>
-		<!-- End Video -->
-
-		<!-- Start Schedule  -->
-		<section id="mu-schedule">
-			<div class="container">
-				<div class="row">
-					<div class="colo-md-12">
-						<div class="mu-schedule-area">
-
-							<div class="mu-title-area">
-								<h2 class="mu-title">Schedule Detail</h2>
-								<p>This is the daily wise analysis of the events that will occur in YUVAAN.</p>
-							</div>
-
-							<div class="mu-schedule-content-area">
-								<!-- Nav tabs -->
-								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
-								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1 Day / 4 March</a></li>
-								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 5 March</a></li>
-								    <li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">Pre Events</a></li>
-								    
-								</ul>
-
-								<!-- Tab panes -->
-								<div class="tab-content mu-schedule-content">
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
-								    	<ul>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Inaugural Cermony Dance and Music</h3>
-								    				<p class="mu-event-time">11.00 AM - 12.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														The openeing ceremony of Yuvaan will be a grand event with a
-														performance by the students of IIITG. The event will be followed by
-														a dance performance by the students of IIITG.
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Open Mic</h3>
-								    				<p class="mu-event-time">12.30 PM - 2.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : LG1</p>
-								    				<span>
-														Amateur speakers can come up and speak freely
-														about any incident/literary piece(poetry/prose)-
-														self or someone else's piece/do a stand-up etc.
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Dance Competitions (Group)</h3>
-								    				<p class="mu-event-time">2.30 PM - 6.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														From elegant classics to power-packed masterpieces, here we
-														present before you a spectacle of stunning dance performances
-														that will shift you right off your feet and get you dancing to their
-														beat!
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Face Painting</h3>
-								    				<p class="mu-event-time">3.00 PM - 5.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														“Behind every mask there’s a face and behind
-														every face there’s a story”
-														So, here we bring to you the opportunity to tell
-														your story by face painting, thus giving face to
-														your story.
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Talk Show</h3>
-								    				<p class="mu-event-time">3.00 PM - 5.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : LG 1</p>
-								    				<span>
-														Get ready to be inspired and empowered by Tinat Atifa Masood's seminar on motivation and success.
-														Whether you're looking to excel academically, start your own business, or pursue your passions, this seminar will
-														give you the tools and mindset to achieve your dreams.
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Mixed Media Art</h3>
-								    				<p class="mu-event-time">5.30 PM - 7.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : LG2</p>
-								    				<span>
-														Woods, fabrics, shells, plastic, and paper all check!
-														Oh no pardon me that's not for some rescue
-														mission, it's time for painting a new day with
-														everything but paints. You heard that right amigo!
-														Grab anything that you like from buttons to shells
-														and be the next Pablo Picasso!
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Band Performance by Malkauns</h3>
-								    				<p class="mu-event-time">7.30 PM - 9.30PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														Get ready to be taken on a musical journey unlike any
-														other, as MAULKANS delivers a captivating and
-														unforgettable performance that will leave you wanting
-														more.
-													</span>
-								    			</div>
-								    		</li>
-								    	</ul>
-								    </div>
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
-								    	<ul>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>TARANG</h3>
-								    				<p class="mu-event-time">11.00 AM - 12.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														From the brihas to the swaras synthesised with Pop
-														to R&B, boasting their skills are the melodious and
-														rhythmic people at Yuvaan’s Solo Singing
-														competition, TARANG. Thronged by singers
-														battling it out at this colossal face-off, this event
-														carries with itself a finesse that sets it apart.
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Decibels</h3>
-								    				<p class="mu-event-time">12.00 PM - 1.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														For those who want to cherish the beauty of notes,
-														harmonies and melodies free from voices and
-														words, we have YUVAAN's Solo instrumental event,
-														DECIBELS. An event where musicians demonstrate
-														their instrumental prowess, proving how one
-														doesn’t need an entire band to sound musical.
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Mystic Hues</h3>
-								    				<p class="mu-event-time">1.00 PM - 2.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														Embracing our musical roots, and staying true to
-														YUVAAN’s nature of cultural richness, we have the
-														Music of Bharat and the World, MYSTIC HUES. A
-														grand event that is the home to the great Indian and
-														Global musical acts of tomorrow.	
-													</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Canon Workshop</h3>
-								    				<p class="mu-event-time">11.00 AM -1.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : LG2</p>
-								    				<span>
-														Join pro  photographer Arpan Kalita and learn about the "A to Z" of 
-														Photography in an interactive session on  photography by Canon!!
-													</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Manga Cover</h3>
-								    				<p class="mu-event-time">12.30 AM - 2.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														Well, Captain America vs Iron Man is a neverending debate, from Manga to 
-														Naruto they never fail to impress the audience, but do you want to
-														create your own superhero or anime character, So
-														we bring you an opportunity to convert the dream
-														into reality.
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>MEMEFLIX Quiz</h3>
-								    				<p class="mu-event-time">2.00 PM - 4.30PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : LG2</p>
-								    				<span>
-														Join us for testing your mettle in Music,
-														Entertainment, Literature, and Arts in the most
-														thrilling and anticipated Quiz.
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Footloose</h3>
-								    				<p class="mu-event-time">2.30 PM - 4.00PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														Nobody should be able to convince you otherwise.
-														There are no borders. Show your innate desire to
-														dance by moving to the music..
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>AD MAD</h3>
-								    				<p class="mu-event-time">3.00 PM - 4.30PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : C1</p>
-								    				<span>
-														“I’m lovin’ it”
-														“Pehle Istemaal kare fir vishwas kare”
-														“It’s finger lickin’ good”
-														Yes, we are surrounded by advertisements and the
-														jingles and tag-lines are it’s identity. Do you want to
-														create your own, well you are at the right place.
-														LIGHTS CAMERA ACTION.... shooting
-														starts in march.
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>Cultural Performances Of Assam-PIB</h3>
-								    				<p class="mu-event-time">5.00 PM - 6.30PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														Get ready to be captivated by the mesmerizing movements and graceful
-														expressions of talented dancers. The dance performances promised to
-														take you on a journey of emotions, from the exhilarating beats of upbeat
-														numbers to the passionate portrayals of soulful pieces.
-													</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<h3>EDM Night By DJ Bickx</h3>
-								    				<p class="mu-event-time">7.30 PM - 9.30PM</p>
-													<p class="mu-event-time" style="align-content: end;">Venue : IIITG Ground</p>
-								    				<span>
-														Be ready to experience the electrifying beats and dynamic
-														rhythms of DJ BICKX! With a talent for reading the crowd and
-														a passion for music that transcends genres, DJ BICKX is
-														guaranteed to make you dance all night.
-													</span>
-								    			</div>
-								    		</li>
-								    	</ul>
-								    </div>
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="third-day">
-								    	<ul>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<!-- <p class="mu-event-time">10.00 AM</p> -->
-								    				<h3>Flash Mob</h3>
-													<span>Watch our dancers set the stage on fire with an electrifying
-														performance skyrocketing the swag level of this enthralling
-														evening. So pull up your socks and get ready to cheer on these
-														snazzy superstars!
-													</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<!-- <p class="mu-event-time">10.00 AM</p> -->
-								    				<h3>Literary discussion pannel</h3>
-								    				<span>A literary cultural event which refines the potential of the strudents in becoming a writer.</span>
-								    			</div>
-								    		</li>
-											<li>
-								    			<div class="mu-single-event">
-								    				<!-- <img src="assets/images/speaker-1.jpg" alt="event speaker"> -->
-								    				<!-- <p class="mu-event-time">10.00 AM</p> -->
-								    				<h3>Social Events</h3>
-								    				<span>
-														Various cultural events and competitions conducted in with the collaboration of the cultural clubs.
-													</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<!-- <p class="mu-event-time">1.00 PM</p> -->
-								    				<h3>The End</h3>
-								    			</div>
-								    		</li>
-								    	</ul>
-								    </div>
-								    
-								</div>
-
-							</div>
-							
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Schedule -->
-
-		<!-- Start Speakers -->
-		<!-- <section id="mu-speakers">
+      <!-- Start Speakers -->
+      <!-- <section id="mu-speakers">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -647,119 +902,145 @@
 				</div>
 			</div>
 		</section> -->
-		<!-- End Speakers -->
+      <!-- End Speakers -->
 
-		<!-- Start Venue -->
-    <section id="mu-venue">
-      <div class="mu-venue-area">
-        <div class="row">
-
-          <div class="col-md-6">
-            <div class="mu-venue-map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.5414845664372!2d91.55980211495222!3d26.081237283492744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5987e09da847%3A0xfc90e6da1b4547c1!2sIndian%20Institute%20of%20Information%20Technology%20Guwahati%20(IIIT)!5e0!3m2!1sen!2sus!4v1675448844000!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <!-- Start Venue -->
+      <section id="mu-venue">
+        <div class="mu-venue-area">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mu-venue-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.5414845664372!2d91.55980211495222!3d26.081237283492744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5987e09da847%3A0xfc90e6da1b4547c1!2sIndian%20Institute%20of%20Information%20Technology%20Guwahati%20(IIIT)!5e0!3m2!1sen!2sus!4v1675448844000!5m2!1sen!2sus"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </div>
-          </div>
 
-          <div class="col-md-6">
-            <div class="mu-venue-address">
-              <h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
-              <h3>IIIT Guwahati</h3>
-              <h4>Bongora, Guwahati-781015. Near Tech City / IT - Park</h4>
-              <p>IIIT Guwahati has a campus of 70 acres of land, about 4km from the
-				Lokpriya Gopinath Bordoloi International Airport. Situated amongst the
-				most beautiful sceneries and calming nature sites, IIIT Guwahati
-				provides the ideal setting for learning.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Venue -->
-
-    <!-- Start Register  -->
-    <section id="mu-register">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="mu-register-area">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Register -->
-    <!-- Start Contact -->
-    <section id="mu-contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="mu-contact-area">
-				<div class="mu-title-area">
-                <h2 class="mu-heading-title">Contact Us</h2>
-                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p> -->
+            <div class="col-md-6">
+              <div class="mu-venue-address">
+                <h2>
+                  VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </h2>
+                <h3>IIIT Guwahati</h3>
+                <h4>Bongora, Guwahati-781015. Near Tech City / IT - Park</h4>
+                <p>
+                  IIIT Guwahati has a campus of 70 acres of land, about 4km from
+                  the Lokpriya Gopinath Bordoloi International Airport. Situated
+                  amongst the most beautiful sceneries and calming nature sites,
+                  IIIT Guwahati provides the ideal setting for learning.
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- End Contact -->
+      </section>
+      <!-- End Venue -->
 
-  </main>
-  
-  <!-- End main content -->  
-      
-      
-  <!-- Start footer -->
-  <footer id="mu-footer" role="contentinfo">
+      <!-- Start Register  -->
+      <section id="mu-register">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mu-register-area"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Register -->
+      <!-- Start Contact -->
+      <section id="mu-contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mu-contact-area">
+                <div class="mu-title-area">
+                  <h2 class="mu-heading-title">Contact Us</h2>
+                  <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact -->
+    </main>
+
+    <!-- End main content -->
+
+    <!-- Start footer -->
+    <footer id="mu-footer" role="contentinfo">
       <div class="container">
         <div class="mu-footer-area">
           <div class="mu-footer-top">
             <div class="mu-social-media">
-              <a href="https://instagram.com/yuvaan_iiitg?igshid=Mzc0YWU1OWY="><i class="fa fa-instagram"></i></a>
-              <a href="https://twitter.com/Yuvaan_IIITG?t=07F8KlCq5Hczc3sYTd-W0g&s=09"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.linkedin.com/company/yuvaaniiitg/"><i class="fa fa-linkedin"></i></a>
-              <a href="https://youtube.com/@yuvaanIIITG"><i class="fa fa-youtube"></i></a>
-			  <a href="https://www.facebook.com/profile.php?id=100089944080294"><i class="fa fa-facebook"></i></a>
+              <a href="https://instagram.com/yuvaan_iiitg?igshid=Mzc0YWU1OWY="
+                ><i class="fa fa-instagram"></i
+              ></a>
+              <a
+                href="https://twitter.com/Yuvaan_IIITG?t=07F8KlCq5Hczc3sYTd-W0g&s=09"
+                ><i class="fa fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/yuvaaniiitg/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a href="https://youtube.com/@yuvaanIIITG"
+                ><i class="fa fa-youtube"></i
+              ></a>
+              <a href="https://www.facebook.com/profile.php?id=100089944080294"
+                ><i class="fa fa-facebook"></i
+              ></a>
             </div>
           </div>
           <div class="mu-footer-bottom">
-            <p class="mu-copy-right">&copy; Copyright <a rel="nofollow" href="http://markups.io">YUVAAN</a>. All right reserved.</p>
+            <p class="mu-copy-right">
+              &copy; Copyright
+              <a rel="nofollow" href="http://markups.io">YUVAAN</a>. All right
+              reserved.
+            </p>
           </div>
         </div>
       </div>
-  </footer>
-  <!-- End footer -->
-  
-  <script src="script.js"></script>
-  <script>
-    const menu_toggle = document.querySelector(".menu_toggle");
-    const navigation = document.querySelector(".navigation");
-    menu_toggle.onclick = function () {
+    </footer>
+    <!-- End footer -->
+
+    <script src="script.js"></script>
+    <script>
+      const menu_toggle = document.querySelector(".menu_toggle");
+      const navigation = document.querySelector(".navigation");
+      menu_toggle.onclick = function () {
         navigation.classList.toggle("active");
-    };
-	</script>
-	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      };
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
-	<!-- Slick slider -->
+    <!-- Slick slider -->
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <!-- Event Counter -->
-    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jquery.countdown.min.js"
+    ></script>
     <!-- Ajax contact form  -->
     <script type="text/javascript" src="assets/js/app.js"></script>
-  
-       
-	
-    <!-- Custom js -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
 
-	
-	
-    
+    <!-- Custom js -->
+    <script type="text/javascript" src="assets/js/custom.js"></script>
   </body>
 </html>
